@@ -1,0 +1,33 @@
+table{
+    border-style: outset;
+    width: 50%;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Trirong", serif;
+
+}
+.table2{
+    border:none;
+    margin: 0px;
+    width: 102%;
+    height: 100px;
+    margin-left: -1%;
+}
+
+td,th{
+    border-style: inset ;
+    
+
+}
+
+.lightyellow{
+    background-color: rgb(174, 174, 52);
+}
+.lavender{
+    background-color: lavender;
+}
+.lightgreen{
+    background-color: lightgreen;
+}

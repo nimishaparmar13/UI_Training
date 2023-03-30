@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+        <head>
+            <style>
+                table{
+                    border: 1px solid black;
+                    
+                    margin: auto;
+                    margin-top: 100px;
+                    width: 30%;
+                    font-family:serif;
+                    
+                }
+
+                tr,td{
+                    border: 1px solid black;
+                    border:inset;
+                }
+
+                .blue_class{
+                    background-color: rgb(207, 207, 238);
+                    text-align: center;
+                }
+
+                #name{
+                    width: 96%;
+                    
+                }
+                #ability{
+                    height: 120px;
+                    width: 98%;
+                }
+                .ability
+                {
+                    border: none;
+                }
+
+                #button{
+                    margin: auto;
+                    margin-left: 150px;
+                }
+
+              
+            </style>
+
+        </head>
+
+        <body>
+            <table>
+                <form>
+                    <tr>
+                        <td class="blue_class"><label for="Name"><b>Name</b></label></td>
+                        <td class="blue_class"><label for="Name"><b>Value</b></label></td>
+                       
+                    </tr>
+                    <td><label for="Name">Name</label></td>
+                    <td><input type="text" id="name" name="name"></td>
+                
+                    <tr>
+
+                        <tr>
+                            <td><label for="gender">Sex</label></td>
+                            <td>
+                                <input type="radio" id="gender" name="gender">Male<br>
+                                <input type="radio" id="gender" name="gender" >Female
+                            </td>
+                           
+                        </tr>
+                        <tr>
+
+                            <td><label for="eye-color">Eye Color</label></td>
+                            <td>
+                                <select id="eye-color" name="eye-color">
+                                    <option value="volvo">Green</option>
+                                    <option value="saab">Black</option>
+                                    <option value="fiat">Blue</option>
+                                    <option value="audi">Brown</option>
+                                  </select>
+                            </td>
+                           
+                        </tr>
+                        <tr>
+                            <td><label for="apply">Check all that apply</label></td>
+                            <td>
+                                <input type="checkbox" id="apply" name="height">Over 6 feet tall<br>
+                                <input type="checkbox" id="apply" name="weight">Over 200 pounds         
+                            </td>
+                           
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="ability"><label for="ability">Desribe your athletic ability:</label></td>
+                            
+                        </tr>
+                        <tr>
+                            <td colspan="4" rowspan="2" >
+                                    <input type="text" name="ability" id="ability">
+                                
+                            </td>
+                        </tr>
+                        
+                        <tr>   
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <input type="button" value="Enter your information" id="button">
+                            </td>
+
+                        </tr>
+
+                        
+
+                    </tr>
+
+                </form>
+            </table>
+        </body>
+
+</html>

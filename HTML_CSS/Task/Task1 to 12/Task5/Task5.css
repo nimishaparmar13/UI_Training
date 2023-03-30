@@ -1,0 +1,103 @@
+body{
+    
+    background-color: #FCEBB6;
+
+}
+
+.main{
+
+    height: 120px;
+    width: 800px;
+   /* border: none;*/
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 40px;
+    background-color: #D2B48C;
+    text-align: center;
+    
+
+}
+h1{
+   
+   /* font-family:monospace;*/
+    font-family: verdana;
+    font-size: 55px;
+    padding: 30px;   
+    font-weight: bold;
+}
+
+.links_div{
+    height: 50px;
+    width: 400px;
+    margin: 30px 1000px 30px 600px;
+    text-align: center;
+
+
+}
+
+.links_div a{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    /*font-family: monospace;*/
+    font-family: verdana;
+    font-weight: bold;
+}
+
+.relax{
+    margin-left: 400px;
+    font-size: 20px;
+    color:#221811;
+}
+p{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: verdana;
+}
+
+.relax ul{
+    font-family: verdana;
+
+}
+
+
+address{
+    margin-left: 400px;
+    font-size: 20px;
+   /* font-family: monospace;*/
+   font-family: verdana;
+   font-style: normal;
+    margin-top: 30px;
+    
+}
+
+.email{
+
+    height: 40px;
+    width: 800px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 40px;
+    background-color: #D2B48C;
+    text-align: center;
+    font-style: italic;
+    font-family: verdana;
+   /* font-weight: normal;*/
+
+}
+.email a{
+    color: blue;
+    
+   /* display: inline-block;
+    vertical-align: top;*/
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+
+    color: aqua;
+
+}

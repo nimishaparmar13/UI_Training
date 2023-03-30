@@ -1,0 +1,22 @@
+table{
+    border: 3px solid black;
+    width: 50%;
+    margin: auto;
+    margin-top: 150px;
+    border-collapse: collapse;
+    text-align: center;
+    background-image: linear-gradient(#edc3d1,#9bcce6);
+}
+
+tr,th,td{
+
+    border: 3px solid black;
+    height: 45px;
+    font-size: 25px;
+}
+
+hr{
+    border: 1px solid black;
+    width: 101%;
+    margin-left: -1%;
+}

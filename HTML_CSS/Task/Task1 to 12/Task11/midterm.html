@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+        <head>
+            <style>
+               table{
+                    border: 2px solid black;                  
+                    margin: auto;
+                    margin-top: 100px;
+                    width: 40%;
+                    height: 380px;
+                    font-family:serif;
+                    background-color: aqua;
+                    font-size: large;
+                    
+                }
+
+                tr,td{
+                    border: 1px solid black;
+                    border: none;
+                    
+                }
+
+                #button{
+                    margin: auto;
+                    margin-left:170px;
+                   
+                }
+
+                b{
+                    font-size: 20px;
+                }
+
+            </style>
+
+        </head>
+
+        <body>
+            <table>
+                <caption><b>Personal Information</b></caption>
+                <form>
+
+                    <tr>
+                        <td><label for="fname">First Name</label></td>
+                        <td><input type="text" id="fname" name="fname" placeholder="Add your first name" style="width: 80%;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Last Name</label></td>
+                        <td><input type="text" id="lname" name="lname" placeholder="Add your last name" style="width: 80%;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="bdate">Birthday</label></td>
+                        <td><input type="date" id="bdate" name="bdate" style="width: 80%;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pnumber">Phone Number</label></td>
+                        <td> <input type="tel" id="pnumber" name="pnumber" placeholder="123-456-789" style="width: 80%;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="hobbies">Hobbies</label></td>
+                        <td>
+                            <input type="checkbox" id="hobbies" name="travel">Traveling<br>
+                            <input type="checkbox" id="hobbies" name="swim">Swimming<br> 
+                            <input type="checkbox" id="hobbies" name="Social Media">Social Media<br>          
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="msg">Message</label></td>
+                        <td><textarea id="msg" name="msg" style="width: 80%;"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="button" value="Submit" id="button">
+                            <input type="button" value="Reset" id="button1">
+                        </td>
+                    </tr>
+
+
+                </form>
+            </table>
+
+        </body>
+
+</html>
+

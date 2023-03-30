@@ -1,0 +1,108 @@
+body{
+    background-color:#808080;
+    font-family: serif;
+    
+}
+
+.header{
+    height: 100px ;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    background-color:#4e4241;
+    border: 2px solid #4e4241;
+    
+    
+}
+h1{
+    
+    padding-top: 10px;
+    padding-left: 10px; 
+    color: white;
+    display: inline-block;
+
+    
+}
+
+.links{
+    margin-left: 200px;
+    display: inline-block;
+}
+
+.links a{
+    color: white;
+    margin-left: 20px;
+    padding-top:10px ;
+    font-size: 20px;
+    display:inline-block;  
+    
+}
+
+.main{
+    height: 500px ;
+    width: 100%;
+    border: 2px solid white;
+    margin: auto;
+    background-color: white;
+}
+
+.sidebar{
+    height: 440px ;
+    width: 15%;
+    margin: auto;
+    margin-top: 50px;
+    float: left;
+    background-color: #87ceeb;
+}
+
+.sidebar a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 50px;
+    line-height: 40px;
+    color: rgb(148, 7, 148);
+    font-weight: bold;
+
+}
+
+.heading{
+    height: 50px;
+    width: 500px;
+    border: none;
+    margin-left: 260px;
+    margin-top: 50px;
+    
+}
+
+a:active {
+    color: red;
+  }
+
+p{
+    font-size: 30px;
+    
+}
+
+.booking-table{
+    margin-top: 5px;
+    width: 1000px;
+    margin-left: 260px;  
+    
+}
+
+table,td,tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+table{
+    width: 100%;
+}
+
+
+
+
+

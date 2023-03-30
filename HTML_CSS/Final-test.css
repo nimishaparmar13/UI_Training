@@ -1,0 +1,39 @@
+.image1{
+    border:1px solid black;
+    height: 600px;
+    width:1000px ;
+    margin-left: 180px;
+    margin-top: 10px;
+    position: absolute;
+    
+}
+
+.logo{
+    border:1px solid black;
+    height: 70px;
+    width: 240px;
+    position: absolute;
+    margin-top: -595px;
+    margin-left: 5px;
+    background-color: white;
+}
+
+.logo P{
+    text-decoration: underline;
+    font-size: 10px;
+    font-weight: bold;
+    
+}
+
+.texts{
+   
+    margin: auto;
+    color: white;
+    position: absolute;
+    margin-top: -470px;
+    margin-left: 600px;
+    font-size: 45px;
+    font-family: sans-serif;
+    text-align: center;
+}
+

@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contaner{
+width:980px;
+margin:auto;
+
+}
+.header{
+width:978px;
+float:left;
+margin:0;
+height:150px;
+border:1px solid #000;
+padding:0;
+background:#CCCCCC;
+}
+.left_panel{
+float:left;
+margin:0px;
+padding:0px;
+width:605px;
+height:570px;/* Change 4- increase the size of left-panel*/
+border:1px solid #000;
+border-collapse: collapse;/* Change 3 - collapse the left panel border*/
+}
+
+/* Change 2 - Adding the padding-top into header*/
+h2{
+    /*padding-top: -30px;*/
+    margin-top: 2%;
+    font-family: sans-serif;
+    margin-left: 7px;
+
+}
+.main{
+width:978px;/* Change 10- change the  width*/
+float:left;
+margin:0;
+padding:0px;/* Change 5- change the padding*/
+border:1px solid #000;
+}
+.right_panel{
+float:right;
+width:350px;/* Change 6- change the width of right panel*/
+height:570px;/* Change 8- change the height of right panel*/
+padding:0px;/* Change -7 change the width of right panel*/
+/* Change 9- adding margin*/
+margin:0px;
+margin-left: 15px;
+border:1px solid #000;
+}
+.left_img{
+width:200px;
+height:200px;
+float:left;
+/* Change 11- adding margin*/
+margin: auto;
+margin-left: 7px;
+margin-top: 10px;
+margin-right: 10px;
+border:1px solid #000;
+
+}
+.right_img{
+float:right;
+width:200px;
+height:200px;
+/* Change 12- adding margin*/
+margin: auto;
+margin-right: 10px;
+margin-left: 10px;
+
+border:1px solid #000;
+
+
+}
+
+/* Change 13- adding p tag properties for p tag of left_panel*/
+.para2 {
+    width: 601px;
+    height: 53px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 7px;
+    margin-right:2px;
+    
+     /*bottom: 100px; */ 
+  }
+
+  /* Change 16- adding p tag properties for p tag of right_panel*/
+
+  .para3{
+    width: 340px;
+    height: 80%;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    /*bottom: -250px;*/
+  }
+
+  /* Change 17- adding margin-left*/
+  p{
+    margin-left: 7px;
+    margin-right: 2px;;
+    
+  }
+
+  /* Change 18- adding p margin-lef*/
+  h1{
+    margin-left: 7px;
+
+  }
+
+  
