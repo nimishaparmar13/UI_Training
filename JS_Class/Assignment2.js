@@ -4,8 +4,10 @@ const prompt=require('prompt-sync')();
 
 var i;
 
-for(i=1; i<=100;i++){
-    if(i%2==0){
+for(i=1; i<=100;i++)
+{
+    if(i%2==0)
+    {
         console.log('Number is Even:',i);
     }
 }
@@ -68,8 +70,10 @@ Number is Even: 100
 
 var i;
 
-for(i=50; i<=100;i++){
-    if(i%3==0 && i%5==0){
+for(i=50; i<=100;i++)
+{
+    if(i%3==0 && i%5==0)
+    {
         console.log('Multiples number of 3 and 5:',i);
     }
 }
@@ -113,23 +117,24 @@ perfect square: 100
 
 //Q4: Find out all the prime numbers from 0 - 100?
 
-var count=0;
-var i,j ;
-for(i=1;i<=100;i++)
-{
-for( j=1;j<=i;j++)
-{
-  if(i%j==0)
-  count++;
-}
+    for(var i=1;i<=100;i++)
+    {
+        var count=0;
+        for( var j=1;j<=i;j++)
+        {
+            if(i%j==0)
+            {
+                count++;
+            }
+            
+        }
 
-if(count==2)
-{
-console.log(i);
+    if(count==2)
+    {   
+    console.log(i);
 
-}
-count=0;
-  
+    }
+
 }
 /* Output:
 2
@@ -162,8 +167,10 @@ count=0;
 
 
 //Q5: Find out all the numbers that are not divisible by 2 or 4 or 6 or 8 in the range of 1-100?
-for(i=1; i<=100;i++){
-    if(i%2 !==0 && i%4 !==0 && i%6 !==0 && i%8 !==0){
+for(i=1; i<=100;i++)
+{
+    if(i%2 !==0 && i%4 !==0 && i%6 !==0 && i%8 !==0)
+    {
         console.log('Numbers are not divisible by 2 or 4 or 6 or 8:',i);
     }
 }
@@ -228,8 +235,10 @@ Numbers are not divisible by 2 or 4 or 6 or 8: 99
 
 var i;
 
-for(i=1; i<=100;i++){
-    if(i%2==0 && i%10==0){
+for(i=1; i<=100;i++)
+{
+    if(i%2==0 && i%10==0)
+    {
         console.log('Multiples number of 2 and 10:',i);
     }
 }
@@ -253,7 +262,8 @@ Multiples number of 2 and 10: 100
 //Q7: Output the fibonacci series from 1-50?
 var n1=0,n2=1,n3;
 
-		for(var i=2;i<10;++i) {
+		for(var i=2;i<10;++i)
+         {
 			
 			 n3=n1+n2;    
 			  console.log(n3);    
@@ -277,7 +287,8 @@ var n1=0,n2=1,n3;
 var s1='Hi, this is my reverse string program';
 var s2="";
 
-for(var i=s1.length-1;i>=0;i--){
+for(var i=s1.length-1;i>=0;i--)
+{
     
     s2=s2+s1.charAt(i);
     
@@ -295,7 +306,8 @@ console.log(s2);
 var s=prompt('Enter the string:');
 
 var sum = 0;
-for(let h = 1; h <= s.length; h++){
+for(let h = 1; h <= s.length; h++)
+{
     
   sum = sum + parseInt(h);   
 }
@@ -309,10 +321,7 @@ console.log(sum);
 
 var s=prompt('Enter the string:');
 var s2='';
-for(let h = 1; h <= s.length; h++){
     s2=s.slice(0,s.length-1);
-  
-}
 
 console.log(s2);
 
@@ -326,12 +335,14 @@ console.log(s2);
 var str=prompt('Enter the string:');
 var count=0;
 
-for(let i = 0; i <= str.length; i++){
+for(let i = 0; i <= str.length; i++)
+{
     
     var s=str.charAt(i)
-    if( s== 'a'|| s == 'e'|| s == 'i' || s == 'o' || s == 'u'){
+    if( s== 'a'|| s == 'e'|| s == 'i' || s == 'o' || s == 'u')
+        {
          count++;
-       }
+        }
        
 }
 
